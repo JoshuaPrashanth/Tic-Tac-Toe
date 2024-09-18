@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.back {
+    height: 100vh;
+    width: 100%;
+    background-color: #3E5964;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.topbar {
+    position: fixed;
+    top: 0px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.toplogo {
+    height: 50px;
+    width: 100px;
+    top: 20px;
+    left: 30px;
+    display: flex;
+}
+.xlogo {
+    height: 100%;
+    width: 50%;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Protest Guerrilla", sans-serif; 
+    color: #02F2FB;
+}
+.xbox {
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Protest Guerrilla", sans-serif; 
+    color: #02F2FB;
+    font-size: 40px;
+}
+.ylogo {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Protest Guerrilla", sans-serif; 
+    color: #FDD21E;
+    font-size: 30px;
+} 
+.ybox {
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Protest Guerrilla", sans-serif; 
+    color: #FDD21E;
+    font-size: 40px;
+}  
+.turnbox {
+    bottom: 560px;
+    height: 50px;
+    width: 110px;
+    background-color: #536D78;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 2px #344248;
+    display: flex;
+    align-items: center;
+    color: #A3C9DA;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 1px;
+    font-size: small;
+}
+.xlogo_2 {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Protest Guerrilla", sans-serif; 
+    font-size: 40px;
+}
+.restart {
+    height: 50px;
+    width: 50px;
+    background-color: #A3C9DA;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 0px 3px #799FAF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    position: relative;
+    left: 20px;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box {
+    height: 125px;
+    width: 125px;
+    margin: 3px;
+    border-radius: 20px;
+    border: none;
+    background-color: #536D78;
+    box-shadow: 0 5px 5px 2px #344248;
+}
+.message {
+    position: fixed;
+    bottom: 0px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FDD21E;
+}
+.hide {
+    display: none;
+}
